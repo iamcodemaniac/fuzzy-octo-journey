@@ -1,0 +1,25 @@
+#include <stdio.h>
+main()
+{
+	int a[6]={10,20,30,40,50};
+	int i,j=i+1,num,temp1,temp2;
+	printf("请输入数值：\n");
+	scanf("%d",num);
+	for(i=1;i<6;i++)
+	{
+		if(a[i]>num)
+		temp1=a[i];
+		a[i-1]=num;
+		{
+			for(j=2;j<7;j++)
+			temp2=a[i];
+			a[i]=temp1;
+			temp1=temp2;
+		}
+	}
+	for(i=1;i<7;i++)
+	{
+	printf("%d",a[i]);
+}
+	
+}
